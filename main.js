@@ -1,23 +1,20 @@
 import { header } from "./componentes/header/headerComponent.js";
+import { seccion1 } from "./componentes/seccion/seccion1.js";
 
-function seccion(){
+function seccion(){ 
 
     let seccion = document.createElement('section');
 
+// header
+
     seccion.appendChild(header());
     
-    let h1 = document.createElement('h1');
-    h1.className = "titulo";
+// sección
 
-    let parrafo = document.createElement('p');
-
-    h1.innerText = "Hola mundo";
-    seccion.appendChild(h1);
-    seccion.appendChild(parrafo);
-    
-    parrafo.innerText = "Introducción a JavaScript";
+    seccion.appendChild(seccion1());
 
     return seccion;
 
 }
+
     document.body.appendChild(seccion());

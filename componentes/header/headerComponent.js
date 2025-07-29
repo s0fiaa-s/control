@@ -4,15 +4,18 @@ function header() {
 
 //div
 
-    let divgeneral = document.createElement("div");
-    divgeneral.className = "divgeneral";
+    let text = document.createElement('text');
+    text.className = 'titulo';
+    text.innerText = "@sofii";
 
-    let circulo = document.createElement("div");
-    circulo.className = "circulo";
+    let div = document.createElement('div');
+    div.className = "circulo";
+    div.innerHTML = "🌺";
 
-    divgeneral.appendChild(circulo);
 
-    return divgeneral;
+    header.appendChild(text);
+    header.appendChild(div);
+    return header;
 }
 
 export {header}
