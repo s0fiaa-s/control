@@ -1,6 +1,7 @@
 function header() {
     
     let header = document.createElement('header');
+    header.className = "header";
 
 //div
 
