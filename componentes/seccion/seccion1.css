@@ -1,6 +1,5 @@
 .seccion-1 {
 
-<<<<<<< HEAD
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -9,32 +8,4 @@
     margin-top: 2rem;
 
     justify-items: center;
-=======
-    width: 20rem;
-    height: 20rem;
-    background-color: rgb(71, 59, 71);  
-}
-
-.titulo{
-    font-size: 1.5rem;
-    color: aliceblue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left: 6rem;
-}
-
-.img{
-    width: 12rem;
-    height: 12rem;
-    border-radius: 25%;
-    margin: auto;
-    display: flex;
-    
-}
-
-.descrip{
-    font-size: 0.9rem;
-    color: aliceblue;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
->>>>>>> origin/main
 }
