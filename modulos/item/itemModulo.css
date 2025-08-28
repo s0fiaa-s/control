@@ -1,19 +1,35 @@
 .item {
+  width: 28rem;
+  height: 28rem;
+  background-color: rgb(253, 134, 154);
+  border-radius: 15px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
 
-    width: 20rem;
-    height: 20rem;
-    background-color: yellow; 
-    color: black; 
-    border-radius: 3px;
-    padding: 1rem;
-    box-shadow: 5px 5px 10px 10px;
+.item h3 {
+  font-size: 12px;
 }
 
 .item img {
-    width: 95%;
-    margin-left: 5px;
+  width: 90px;
+  height: 100px;
+  margin: auto;
+}
+
+.item p {
+  font-size: 7px;
+}
+
+.item span {
+  font-size: 18px;
+  color: greenyellow;
+  margin-top: 5px;
 }
 
 .verde {
-    background-color: green;
+  background-color: greenyellow;
 }
